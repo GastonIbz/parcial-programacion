@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Cursada</title>
+    <link rel="stylesheet" type="text/css" href="horario.css">
+</head>
+
+<body>
+    <table id="tabla-horario">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="hora">08:00 - 08:40</td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+                <td></td>
+                <td></td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+            </tr>
+            <tr>
+                <td class="hora">08:40 - 09:20</td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+                <td data-materia="GESTIÓN DE PROYECTOS" data-profesor="Alejandra Di Gionantonio">GESTIÓN DE PROYECTOS<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td></td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+            </tr>
+            <tr class="recreo">
+                <td class="hora">Recreo 10 min</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td class="hora">09:30 - 10:10</td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+                <td data-materia="PRÁCTICA PROFESIONAL II" data-profesor="Miguel Correa">PRÁCTICA PROFESIONAL II<br><span class="profesor">Miguel Correa</span></td>
+                <td data-materia="GESTIÓN DE PROYECTOS" data-profesor="Alejandra Di Gionantonio">GESTIÓN DE PROYECTOS<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td data-materia="PROGRAMACIÓN III" data-profesor="Judith Rearte">PROGRAMACIÓN III<br><span class="profesor">Judith Rearte</span></td>
+                <td data-materia="INGENIERÍA DE SOFTWARE" data-profesor="Alejandra Paz Menville">INGENIERÍA DE SOFTWARE<br><span class="profesor">Alejandra Paz Menville</span></td>
+            </tr>
+            <tr>
+                <td class="hora">10:10 - 10:50</td>
+                <td data-materia="PROGRAMACIÓN III" data-profesor="Judith Rearte">PROGRAMACIÓN III<br><span class="profesor">Judith Rearte</span></td>
+                <td></td>
+                <td data-materia="GESTIÓN DE PROYECTOS" data-profesor="Alejandra Di Gionantonio">GESTIÓN DE PROYECTOS<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td data-materia="PROGRAMACIÓN III" data-profesor="Judith Rearte">PROGRAMACIÓN III<br><span class="profesor">Judith Rearte</span></td>
+                <td data-materia="INGENIERÍA DE SOFTWARE" data-profesor="Alejandra Paz Menville">INGENIERÍA DE SOFTWARE<br><span class="profesor">Alejandra Paz Menville</span></td>
+            </tr>
+            <tr class="recreo">
+                <td class="hora">Recreo 10 min</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td class="hora">11:00 - 11:40</td>
+                <td data-materia="PROGRAMACIÓN III" data-profesor="Judith Rearte">PROGRAMACIÓN III<br><span class="profesor">Judith Rearte</span></td>
+                <td data-materia="INTERFAZ DEL USUARIO" data-profesor="Alejandra Di Gionantonio">INTERFAZ DEL USUARIO<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td data-materia="INTERFAZ DEL USUARIO" data-profesor="Alejandra Di Gionantonio">INTERFAZ DEL USUARIO<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td data-materia="INGENIERÍA DE SOFTWARE" data-profesor="Alejandra Paz Menville">INGENIERÍA DE SOFTWARE<br><span class="profesor">Alejandra Paz Menville</span></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="hora">11:40 - 12:20</td>
+                <td data-materia="INGENIERÍA DE SOFTWARE" data-profesor="Alejandra Paz Menville">INGENIERÍA DE SOFTWARE<br><span class="profesor">Alejandra Paz Menville</span></td>
+                <td data-materia="INTERFAZ DEL USUARIO" data-profesor="Alejandra Di Gionantonio">INTERFAZ DEL USUARIO<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td></td>
+                <td data-materia="INTERFAZ DEL USUARIO" data-profesor="Alejandra Di Gionantonio">INTERFAZ DEL USUARIO<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td></td>
+            </tr>
+            <tr class="recreo">
+                <td class="hora">Recreo 10 min</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td class="hora">12:30 - 13:10</td>
+                <td data-materia="INGENIERÍA DE SOFTWARE" data-profesor="Alejandra Paz Menville">INGENIERÍA DE SOFTWARE<br><span class="profesor">Alejandra Paz Menville</span></td>
+                <td></td>
+                <td></td>
+                <td data-materia="INTERFAZ DEL USUARIO" data-profesor="Alejandra Di Gionantonio">INTERFAZ DEL USUARIO<br><span class="profesor">Alejandra Di Gionantonio</span></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="hora">13:10 - 13:50</td>
+                <td data-materia="INGENIERÍA DE SOFTWARE" data-profesor="Alejandra Paz Menville">INGENIERÍA DE SOFTWARE<br><span class="profesor">Alejandra Paz Menville</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="audio-player-container">
+        <div class="audio-player">
+            <button id="botonPlay" class="control-button"><span style="color: rgb(255, 255, 255) !important;">▶</span></button>  
+            <button id="botonPausa" class="control-button"><span style="color: rgb(255, 255, 255) !important;">❚❚</span></button>
+            <button id="botonAnterior" class="control-button"><span style="color: rgb(255, 255, 255) !important;">⏮</span></button>
+            <button id="botonSiguiente" class="control-button"><span style="color: rgb(255, 255, 255) !important;">⏭</span></button>
+            <input type="range" id="barraProgreso" value="0">
+            <span id="tiempoActualDisplay">0:00</span> / <span id="duracionDisplay">3:36</span>
+            <audio id="reproductorAudio" src="" data-playlist='["audio/cancion1.mp3", "audio/cancion2.mp3", "audio/cancion3.mp3"]'></audio>
+        </div>
+    <button id="boton-luces"> Activar Luces </button>
+    <script src="script.js"></script>
+</body>
+
+</html>
